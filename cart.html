@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" /> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/ShoppingKro (3) (1).png" type="image/x-icon">
+    <title>ShoppingKro.com</title>
+
+</head>
+<body>
+    <center>
+    <section class="header">
+                    <a href="#"><h2>ShoppingKro.com</h2></a>
+                    <div>
+                    <ul id="nav">
+                        <li><a  href="home.html">Home</a></li>
+                        <li><a  href="shop.html">Shop</a></li>
+                        <li><a  href="blog.html">Blog</a></li>
+                        <li><a  href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a class="cart-active" id="cart" href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                        <a id="close" href="#"><i class="fa-solid fa-xmark"></i></a>
+                    </ul>
+                    <i id="bag" class="fa-solid fa-bag-shopping"></i>
+                    <i id="bar" class="fa-solid fa-bars"></i>
+                </div>
+    </section>
+
+    <section id="page-header" class="about-header">
+        <div>
+            <h2>#Shop</h2>
+        <p>Rebiew Your Order and Shop More</p>
+        </div>
+    </section>
+
+    <section id="cart">
+        <table> 
+            <thead>
+                <tr class="heading">
+                    <td><h4>Remove</h4></td>
+                    <td><h4>Image</h4></td>
+                    <td><h4>Product</h4></td>
+                    <td><h4>Price</h4></td>
+                    <td><h4>Quantity</h4></td>
+                    <td><h4>SubTotal</h4></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><i class="fa-solid fa-xmark"></i></td>
+                    <td><img src="img/t-shirt-png-25305.png" alt=""></td>
+                    <td>T-shirt for Men</td>
+                    <td>699.00 PKR</td>
+                    <td><input type="number"  value="1"></td>
+                    <td>699.00 PKR</td>
+                </tr>
+                <tr>
+                    <td><i class="fa-solid fa-xmark"></i></td>
+                    <td><img src="img/t-shirt-png-25305.png"></td>
+                    <td>T-shirt for Men</td>
+                    <td>699.00 PKR</td>
+                    <td><input type="number" value="1"></td>
+                    <td>699.00 PKR</td>
+                </tr>
+                <tr>
+                    <td><i class="fa-solid fa-xmark"></i></td>
+                    <td><img src="img/t-shirt-png-25305.png" alt=""></td>
+                    <td>T-shirt for Men</td>
+                    <td>699.00 PKR</td>
+                    <td><input type="number" value="1"></td>
+                    <td>699.00 PKR</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="cart-total">
+        <div class="cart-container">
+            <div class="coupon">
+                <h3>Apply Coupon</h3>
+                <input type="text" placeholder="Enter Coupon">
+                <button>Apply</button>
+            </div>
+            <div class="sub-total">
+                <h2>Cart Total</h2>
+                <table>
+                    <tr>
+                        <td>Cart-subtotal</td>
+                        <td>2097.00 PKR</td>
+                    </tr>
+                    <tr>
+                        <td>Shipping Fee</td>
+                        <td>Free</td>
+                    </tr>
+                    <tr>
+                        <td><h3>SubTotal</h3></td>
+                        <td>2097.00 PKR</td>
+                    </tr>
+                </table>
+                <button>Proceed to checkout.</button>
+            </div>
+        </div>
+    </section>
+    <section class="newsletter">
+        <div class="news-container">
+            <div class="news-text">
+                <h2>Sign Up for News Letter</h2>
+                <h5>Get E-mail updates about our latest shop and <span>Special Offers</span></h5>
+            </div>
+            <div class="email">
+                <input type="email" placeholder="Enter your email" required>
+                <button>Sign-Up</button>
+            </div>
+        </div>
+    </section>
+
+     <footer>
+        <div class="footer-container">
+            <div class="col-1">
+                <a href="#"><h2>ShoppingKro.com</h2></a>
+                <h3>Contact</h3>
+                <p><strong>Address:</strong> LDA Avenue, Main Raiwand Road J-Block near Cui, Lahore</p>
+                <p><strong>Phone:</strong> +92-3154100710</p>
+                <p><strong>Hours:</strong> 9:00am - 7:00pm, Mon - Sat </p>
+
+                <div class="follow">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+
+            <div class="col-2">
+                <h3>About</h3>
+                <a href="#">About us ></a>
+                <a href="#">Delivery Information ></a>
+                <a href="#">Privacy Policy ></a>
+                <a href="#">Terms & Conditions ></a>
+                <a href="#">Contact us ></a>    
+            </div>
+
+            <div class="col-2">
+                <h3>My Account</h3>
+                <a href="#">Sign In ></a>
+                <a href="#">View Cart ></a>
+                <a href="#">My Wishlist ></a>
+                <a href="#">Track My Order ></a>
+                <a href="#">Help ></a> 
+            </div>
+
+            <div class="col-4">
+                <h3>Install App</h3>
+                <p>From App Store or Google Play</p>
+                <div class="app">
+                    <a href="#"><img src="img/play-store.png"></a>
+                    <a href="#"><img src="img/app-store.png"></a>
+                </div>    
+                <p>Secured Payment Gateways</p>
+                <div class="payment">
+                    <i  class="fa-brands fa-cc-visa visa"></i>
+                    <i  class="fa-brands fa-cc-mastercard "></i>
+                    <i  class="fa-brands fa-paypal"></i>
+                </div>
+            </div>
+        </div>
+    </footer> 
+
+    <div>
+        <p class="copywrite">@copywite: TrendoCoder.pk, Templete of Ecommerce Website</p>
+    </div>
+    </center>
+    <script src="script.js"></script>
+</body>
+</html>
